@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
 
   s.source       = {
-    :git => "https://github.com/HomeKeySystems/react-native-quikkly.git",
-    :tag => "v#{s.version}"
+    :git => "https://github.com/HomeKeySystems/quikkly-react-native.git",
+    :tag => "hk-#{s.version}"
   }
   s.source_files  = "ios/**/*.{h,m}"
   s.requires_arc  = true
